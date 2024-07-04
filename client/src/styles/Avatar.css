@@ -1,0 +1,15 @@
+.avatar {
+    @apply flex items-center justify-center w-14 h-14 rounded-full bg-[#222f43] text-white transition-colors duration-300;
+  }
+  .avatar-facebook:hover {
+    @apply bg-blue-600;
+  }
+  .avatar-instagram:hover {
+    @apply bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500;
+  }
+  .avatar-snapchat:hover {
+    @apply bg-yellow-500;
+  }
+  .avatar-twitter:hover {
+    @apply bg-blue-400;
+  }
