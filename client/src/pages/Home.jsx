@@ -1,10 +1,11 @@
 import React from 'react'
-import Navbar from '../components/Hero/Navbar'
 import Hero from '../layouts/Home/Hero'
 import Articles from '../layouts/Home/Articles'
 import Tags from '../layouts/Home/Tags'
 import Posts from '../layouts/Home/Posts'
 import Cards from '../layouts/Home/Cards'
+import Partners from '../layouts/Home/Partners'
+import Footer from '../layouts/Home/Footer'
 
 function Home() {
   return (
@@ -14,6 +15,8 @@ function Home() {
       <Tags />
       <Posts />
       <Cards />
+      <Partners />
+      <Footer />
     </div>
   )
 }

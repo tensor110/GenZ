@@ -7,7 +7,7 @@ function Tags() {
   return (
     <div className="px-[7.5%] py-[3%]  flex flex-col gap-14">
       <div className="flex flex-col gap-2">
-        <Heading className='text-5xl font-bold'>Popular Tags</Heading>
+        <Heading className='text-5xl font-bold leading-[70px]'>Popular Tags</Heading>
         <Subline>Most searched keywords</Subline>
       </div>
       <div className='flex flex-wrap gap-8'>
