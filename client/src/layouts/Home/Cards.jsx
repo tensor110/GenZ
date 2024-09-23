@@ -5,7 +5,7 @@ import Cardright from '../../components/Cards/Cardright'
 
 function Cards() {
   return (
-    <div className='px-[7.5%] py-[1%] flex justify-between'>
+    <div className='px-[7.5%] py-4 md:py-6 flex flex-wrap gap-4 justify-between lg:justify-between'>
       <Cardleft />
       <Cardmid />
       <Cardright />

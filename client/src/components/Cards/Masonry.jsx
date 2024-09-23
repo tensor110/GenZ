@@ -16,8 +16,8 @@ const Label = styled(Paper)(({ theme }) => ({
 
 export default function ImageMasonry() {
   return (
-    <Box sx={{ width: "100%" }}>
-      <Masonry columns={3} spacing={2}>
+    <Box sx={{ width: "100%" }} className = 'flex justify-center'>
+      <Masonry columns={{ xs: 5, sm: 5, md: 4, lg: 3, xl: 3 }} spacing={2}>
         {itemData.map((item, index) => (
           <div key={index}>
             <img

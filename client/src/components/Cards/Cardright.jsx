@@ -7,7 +7,7 @@ import ImageMasonry from "./Masonry";
 
 function Cardright() {
   return (
-    <div className="flex flex-col glassmorph w-[32%] p-[2%] gap-8">
+    <div className='flex flex-col glassmorph w-full md:min-w-[30%] lg:w-[33%] p-[2%] gap-4'>
       <div className="flex flex-col gap-3">
         <NavLink to="/" className="flex items-center gap-3">
           <img src="/logo.png" alt="" className="size-10 rotate-[30deg]" />
